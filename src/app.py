@@ -1,7 +1,7 @@
 from PIL import Image
 from flask import Flask, jsonify, make_response, request, Request
 
-from src.image import calc_avg_intensity
+from . import calc_avg_intensity
 
 # %%
 

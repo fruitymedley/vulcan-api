@@ -1,0 +1,8 @@
+services:
+  vulcan-api:
+    container_name: vulcan-api
+    image: vulcan-api:1.0.0
+    build:
+      dockerfile: dockerfile
+    ports:
+      - '8000:8000'
